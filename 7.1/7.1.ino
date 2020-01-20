@@ -1,9 +1,9 @@
-const int A = 5;        
-const int B = 6;         
-const int C = 7;          
-const int D = 8;          
-const int E = 9;          
-const int F = 10;         
+const int A = 5;        //4
+const int B = 6;        //5
+const int C = 7;        //passat punt esquerra 7  
+const int D = 8;        //8
+const int E = 9;        //
+const int F = 10;       //
 const int G = 11;         
 const int delayA =1000;
 
@@ -23,81 +23,61 @@ void setup()
 
 void loop()
 {
+  digitalWrite(A, LOW);    
+  digitalWrite(B, LOW);    
+  digitalWrite(C, LOW);   
+  digitalWrite(D, LOW);    
+  digitalWrite(E, LOW);    
+  digitalWrite(F, LOW);   
+  digitalWrite(G, HIGH);
+  
+  delay(delayA);                  
+  
   digitalWrite(A, HIGH);    
-  digitalWrite(B, HIGH);    
-  digitalWrite(C, HIGH);   
+  digitalWrite(B, LOW);    
+  digitalWrite(C, LOW);   
   digitalWrite(D, HIGH);    
+  digitalWrite(E, HIGH);    
+  digitalWrite(F, HIGH);   
+  digitalWrite(G, HIGH);
+  
+  delay(delayA);                  
+ 
+  digitalWrite(A, LOW);    
+  digitalWrite(B, LOW);    
+  digitalWrite(C, HIGH);   
+  digitalWrite(D, LOW);    
+  digitalWrite(E, LOW);    
+  digitalWrite(F, HIGH);   
+  digitalWrite(G, LOW);
+  
+  delay(delayA);       
+
+  digitalWrite(A, LOW);    
+  digitalWrite(B, LOW);    
+  digitalWrite(C, LOW);   
+  digitalWrite(D, LOW);    
   digitalWrite(E, HIGH);    
   digitalWrite(F, HIGH);   
   digitalWrite(G, LOW);
   
   delay(delayA);                  
-  
-  digitalWrite(A, LOW);    
-  digitalWrite(B, HIGH);    
-  digitalWrite(C, HIGH);   
-  digitalWrite(D, LOW);    
-  digitalWrite(E, LOW);    
-  digitalWrite(F, LOW);   
-  digitalWrite(G, LOW);
-  
-  delay(delayA);                  
  
   digitalWrite(A, HIGH);    
-  digitalWrite(B, HIGH);    
+  digitalWrite(B, LOW);    
   digitalWrite(C, LOW);   
   digitalWrite(D, HIGH);    
   digitalWrite(E, HIGH);    
   digitalWrite(F, LOW);   
-  digitalWrite(G, HIGH);
-  
-  delay(delayA);       
-
-  digitalWrite(A, HIGH);    
-  digitalWrite(B, HIGH);    
-  digitalWrite(C, HIGH);   
-  digitalWrite(D, HIGH);    
-  digitalWrite(E, LOW);    
-  digitalWrite(F, LOW);   
-  digitalWrite(G, HIGH);
+  digitalWrite(G, LOW);
   
   delay(delayA);                  
  
   digitalWrite(A, LOW);    
   digitalWrite(B, HIGH);    
-  digitalWrite(C, HIGH);   
+  digitalWrite(C, LOW);   
   digitalWrite(D, LOW);    
-  digitalWrite(E, LOW);    
-  digitalWrite(F, HIGH);   
-  digitalWrite(G, HIGH);
-  
-  delay(delayA);                  
- 
-  digitalWrite(A, HIGH);    
-  digitalWrite(B, LOW);    
-  digitalWrite(C, HIGH);   
-  digitalWrite(D, HIGH);    
-  digitalWrite(E, LOW);    
-  digitalWrite(F, HIGH);   
-  digitalWrite(G, HIGH);
-  
-  delay(delayA);                  
-  
-  digitalWrite(A, LOW);    
-  digitalWrite(B, LOW);    
-  digitalWrite(C, HIGH);   
-  digitalWrite(D, HIGH);    
   digitalWrite(E, HIGH);    
-  digitalWrite(F, HIGH);   
-  digitalWrite(G, HIGH);
-  
-  delay(delayA);                  
-    
-  digitalWrite(A, HIGH);    
-  digitalWrite(B, HIGH);    
-  digitalWrite(C, HIGH);   
-  digitalWrite(D, HIGH);    
-  digitalWrite(E, LOW);    
   digitalWrite(F, LOW);   
   digitalWrite(G, LOW);
   
@@ -105,21 +85,41 @@ void loop()
   
   digitalWrite(A, HIGH);    
   digitalWrite(B, HIGH);    
-  digitalWrite(C, HIGH);   
+  digitalWrite(C, LOW);   
+  digitalWrite(D, LOW);    
+  digitalWrite(E, LOW);    
+  digitalWrite(F, LOW);   
+  digitalWrite(G, LOW);
+  
+  delay(delayA);                  
+    
+  digitalWrite(A, LOW);    
+  digitalWrite(B, LOW);    
+  digitalWrite(C, LOW);   
   digitalWrite(D, HIGH);    
   digitalWrite(E, HIGH);    
   digitalWrite(F, HIGH);   
   digitalWrite(G, HIGH);
   
   delay(delayA);                  
-
-  digitalWrite(A, HIGH);    
-  digitalWrite(B, HIGH);    
-  digitalWrite(C, HIGH);   
+  
+  digitalWrite(A, LOW);    
+  digitalWrite(B, LOW);    
+  digitalWrite(C, LOW);   
   digitalWrite(D, LOW);    
   digitalWrite(E, LOW);    
-  digitalWrite(F, HIGH);   
-  digitalWrite(G, HIGH);
+  digitalWrite(F, LOW);   
+  digitalWrite(G, LOW);
+  
+  delay(delayA);                  
+
+  digitalWrite(A, LOW);    
+  digitalWrite(B, LOW);    
+  digitalWrite(C, LOW);   
+  digitalWrite(D, HIGH);    
+  digitalWrite(E, HIGH);    
+  digitalWrite(F, LOW);   
+  digitalWrite(G, LOW);
   
   delay(delayA);                    
                 
